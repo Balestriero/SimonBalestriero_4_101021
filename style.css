@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #ac1919;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -689,6 +689,26 @@ a {
   margin-bottom: 5px !important;
 }
 
+.bold {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.bold2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.bold:hover {
+  color: #ac1919;
+}
+
+p.text-center.footertxt {
+  margin-bottom: 0;
+}
+
 h2.title2 {
   color: #ac1919 !important;
   font-weight: 600;
@@ -728,7 +748,7 @@ p.tight-width-whitespace {
 
 .social {
   max-width: 400px;
-  margin: auto auto auto auto;
+  margin: auto auto 20px auto;
 }
 
 h2 {
