@@ -515,6 +515,7 @@ button {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  width: 370px;
 }
 
 .scrollToTop {
@@ -718,11 +719,12 @@ h2.title2 {
 .citation {
   display: flex;
   justify-content: end;
+  margin-right: 20px;
   font-size: 12px;
 }
 
 .tight-width-whitespace {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto auto auto auto;
 }
 
@@ -854,6 +856,11 @@ p.footertxt {
   color: #000000 !important;
 }
 
+.btn-block {
+  display: block;
+  max-width: 370px;
+}
+
 .ltc-white {
   color: #ffffff !important;
 }
@@ -914,13 +921,13 @@ p.footertxt {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -938,10 +945,7 @@ p.footertxt {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -950,8 +954,6 @@ p.footertxt {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
